@@ -5,7 +5,7 @@ const doc = {
         title: 'Contacts Api',
         description: 'Contacts Api',
     },
-    host: 'localhost:8080',
+    host: 'https://cse-314-week-2-contacts-api-part-2.onrender.com/:8080',
     schemes: ['http','https']
 };
 

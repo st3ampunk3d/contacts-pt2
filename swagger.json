@@ -8,8 +8,8 @@
   "host": "https://cse-314-week-2-contacts-api-part-2.onrender.com/:8080",
   "basePath": "/",
   "schemes": [
-    "http",
-    "https"
+    "https",
+    "http"
   ],
   "paths": {
     "/": {

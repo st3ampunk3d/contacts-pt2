@@ -1,0 +1,37 @@
+[
+    {
+        "firstName": "Radley",
+        "lastName": "Crowne",
+        "email": "radley.crowne@bluefalcon.com",
+        "favoriteColor": "Blue",
+        "birthday": "1997-09-10"
+    },
+    {
+        "firstName": "Charles",
+        "lastName": "Brown",
+        "email": "charlie.brown@peanuts.com",
+        "favoriteColor": "Yellow",
+        "birthday": "1950-10-02"
+    },
+    {
+        "firstName": "Emily",
+        "lastName": "Elizabeth",
+        "email": "e.elizabeth@bigred.com",
+        "favoriteColor": "Pink",
+        "birthday": "2000-09-04"
+    },
+    {
+        "firstName": "George",
+        "lastName": "Jetson",
+        "email": "george@spacelysprokets.net",
+        "favoriteColor": "Blue",
+        "birthday": "1962-09-23"
+    },
+    {
+        "firstName": "Jonny",
+        "lastName": "Quest",
+        "email": "jonny@questlabs.org",
+        "favoriteColor": "Black",
+        "birthday": "1964-09-18"
+    }
+]

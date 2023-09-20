@@ -1,0 +1,37 @@
+{
+  "name": "contacts",
+  "version": "1.0.0",
+  "description": "Contact List API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/st3ampunk3d/CSE-341_Contacts.git"
+  },
+  "author": "Joshua A. Beale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/st3ampunk3d/CSE-341_Contacts/issues"
+  },
+  "homepage": "https://github.com/st3ampunk3d/CSE-341_Contacts#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0",
+    "nodemon": "^3.0.1",
+    "swagger-autogen": "^2.23.5",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.3"
+  }
+}

@@ -1,12 +1,12 @@
 //LOCALHOST
 ### Get all contacts
-http://localhost:3000/contacts
+http://localhost:8080/contacts
 
 ### Get a single contact
-http://localhost:3000/contacts/6508a8efe4a9139f63835544
+http://localhost:8080/contacts/650a73a0ebc57596a688a47a
 
 ### Post a new Contact
-POST http://localhost:3000/contacts HTTP/1.1
+POST http://localhost:8080/contacts HTTP/1.1
 Content-Type: application/json
 
 {
@@ -18,7 +18,7 @@ Content-Type: application/json
 }
 
 ### Update and Existing Contact
-PUT http://localhost:3000/contacts/6508bd0a5d795eb8bdb0da48 HTTP/1.1
+PUT http://localhost:8080/contacts/650a73a0ebc57596a688a47a HTTP/1.1
 Content-Type: application/json
 
 {
@@ -30,12 +30,38 @@ Content-Type: application/json
 }
 
 ### Delete a contact
-DELETE http://localhost:3000/contacts/6508bd0a5d795eb8bdb0da48 HTTP/1.1
+DELETE http://localhost:8080/contacts/650a73a0ebc57596a688a47a HTTP/1.1
 
 
 // Production
 ### Get all Contacts
-https://project-1-contacts.onrender.com/contacts
-
+https://cse-314-week-2-contacts-api-part-2.onrender.com/
 ### Get a single contact
-https://project-1-contacts.onrender.com/contacts/6504f1a8fa72d2051339b44d
+https://cse-314-week-2-contacts-api-part-2.onrender.com/contacts/650a73a0ebc57596a688a47a
+
+### Post a new Contact
+POST https://cse-314-week-2-contacts-api-part-2.onrender.com/contacts HTTP/1.1
+Content-Type: application/json
+
+{
+  "firstName": "Norville",
+  "lastName": "Rogers",
+  "email": "shaggy@mysteryinc.org",
+  "favoriteColor": "Green",
+  "birthday": "1969-09-13"
+}
+
+### Update and Existing Contact
+PUT https://cse-314-week-2-contacts-api-part-2.onrender.com/contacts/650a73a0ebc57596a688a47a HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Norville",
+    "lastName": "Rogers",
+    "email": "shaggy@mysteryinc.org",
+    "favoriteColor": "Green",
+    "birthday": "2020-09-13"
+}
+
+### Delete a contact
+DELETE https://cse-314-week-2-contacts-api-part-2.onrender.com/contacts/650a73a0ebc57596a688a47a HTTP/1.1
